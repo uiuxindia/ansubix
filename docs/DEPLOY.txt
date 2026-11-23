@@ -1,0 +1,19 @@
+ANSUBIX TECHNOLOGIES - WEBSITE PACKAGE
+======================================
+Structure
+  index.html            Page markup, SEO tags, structured data
+  assets/css/styles.css All styles (light/dark sections, responsive rules)
+  assets/js/script.js   Interactions (jQuery 3.7.1 loaded from cdnjs)
+  assets/               Local photo folder (see assets/README.txt)
+  robots.txt            Crawler rules
+  sitemap.xml           Sitemap for Google Search Console
+  docs/DEPLOY.txt       This file
+
+Before going live
+  1. Replace www.example.com in index.html (canonical), robots.txt and sitemap.xml with your real domain.
+  2. Connect the enquiry form to your email or CRM endpoint (script.js currently only validates).
+  3. Keep the Unsplash photo credits visible.
+  4. Test with PageSpeed Insights and Google Rich Results Test.
+
+Open locally
+  Double-click index.html. Unsplash photos need an internet connection.
