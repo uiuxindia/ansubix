@@ -35,3 +35,12 @@ GitHub Pages official: https://docs.github.com/en/pages/configuring-a-custom-dom
 - Legal/privacy details and contact identity should be finalized before launch.
 - The fonts depend on Google Fonts; the CSS includes system fallbacks.
 - To preview locally: `python -m http.server 8000` in this directory, then open http://localhost:8000.
+
+## Premium V2 design update
+
+- New high-end homepage hero with illustrative digital product interface, more purposeful for a web/UI/UX agency than a generic 3D sphere.
+- Consistent neon-cyan/royal-blue/violet styling matched to supplied metallic logo, with refined typography, CTA hierarchy, spacing, and cards.
+- Responsive polish for desktop, tablet and mobile; refined 8-page navigation.
+- Added `assets/css/premium-v2.css` to each of the eight pages; keep this file when uploading.
+- Logo source file (`assets/images/ansubix-wordmark.png`) retains its full resolution and aspect ratio.
+- This remains a static site and the form is not server-connected.
