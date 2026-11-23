@@ -1,24 +1,21 @@
-# ANSUBIX Technologies — Premium V3 (Static website)
+# ANSUBIX Technologies — Services Reference V5
 
-8 responsive pages built for GitHub Pages.
+GitHub Pages-ready static website with 8 pages and updated Our Services section inspired by the clean, tab-based interaction pattern in the supplied FATbit reference. ANSUBIX branding, content, and illustrative artwork are original.
 
-## Pages
-- index.html
-- about.html
-- website-app-development.html
-- ui-ux-design.html
-- blockchain-development.html
-- crypto-listing.html
-- portfolio.html
-- contact.html
+## Updated homepage section
+- Four interactive, keyboard-accessible service tabs: Website & Apps, UI/UX Product Design, Blockchain/Web3, Crypto Listing/Marketing.
+- Mobile App Development is included inside Website & App Development, consistent with stated service priorities.
+- Each tab includes a detailed description, relevant links, a CTA and bespoke CSS-rendered visual.
+- Responsive section from wide desktop to 320px mobile, with reduced-motion accessibility.
+
+## Files changed relative to V4
+- `index.html` (replaced `#services` markup, linked additional stylesheet)
+- `assets/css/services-reference.css` (new, modular styles)
+- `assets/js/site.js` (interactive tabs)
 
 ## Deployment
-Upload **the contents** of this folder to the root of `uiuxindia/ansubix` on the `main` branch. Keep the `CNAME` file (`ansubix.com`) in root. GitHub Pages: Deploy from branch `main`, folder `/(root)`. GoDaddy DNS and GitHub custom domain must be correctly configured separately.
+Upload contents of this folder to `uiuxindia/ansubix` repository root on `main`. Keep `CNAME` containing `ansubix.com` and `.nojekyll`; do not delete the other pages/assets. Domain DNS must be configured separately at the DNS host. No GitHub push or DNS changes were performed by this package.
 
-## Notes
-- Copy-only contact form. This site **does not send enquiries**. Connect a secure verified endpoint or company mailbox before presenting it as a functioning enquiry form.
-- Portfolio samples and product interfaces are **illustrative concepts**, not approved client case studies. Do not relabel them as client work.
-- Fonts load via Google Fonts where available; system-font fallback works offline.
-- Responsive and accessible navigation, reduced-motion preference, visible focus states.
-- No framework, build tool, API key, or other paid dependency.
-- Do not overwrite unrelated repository files or DNS records without review.
+## Limitations
+- Contact form is copy-only, not connected to a delivery endpoint.
+- Product art is illustrative UI, not claimed client portfolio work.
