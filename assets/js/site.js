@@ -61,3 +61,15 @@
     });
   }
 })();
+
+;(() => {
+  'use strict';
+  const buttons = [...document.querySelectorAll('.v7-filters [data-filter]')];
+  const cards = [...document.querySelectorAll('.v7-portfolio-grid [data-category]')];
+  if (!buttons.length || !cards.length) return;
+  const setFilter = (filter) => {
+    buttons.forEach(button => { const active = button.dataset.filter === filter; button.classList.toggle('is-active', active); button.setAttribute('aria-pressed', String(active)); });
+    cards.forEach(card => { card.hidden = filter !== 'All' && card.dataset.category !== filter; });
+  };
+  buttons.forEach(button => button.addEventListener('click', () => setFilter(button.dataset.filter)));
+})();

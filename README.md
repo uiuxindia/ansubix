@@ -1,27 +1,31 @@
-# ANSUBIX TECHNOLOGIES — FATbit-inspired Design System V6
+# ANSUBIX Technologies — Graphic Portfolio V7
 
-An original **eight-page static website** inspired by the clean, bold, high-contrast visual language of FATbit. It does not copy FATbit's proprietary assets, content or branding.
+Complete 8-page static site, based on V6 with a stronger graphical design system, custom vector artwork, and verified links to selected projects published by Mangat Singh on Behance.
 
 ## Pages
-1. `index.html` — Home
-2. `about.html` — About Us
-3. `website-app-development.html` — Website & App Development
-4. `ui-ux-design.html` — UI/UX Design
-5. `blockchain-development.html` — Blockchain Development
-6. `crypto-listing.html` — Crypto Listing
-7. `portfolio.html` — Portfolio
-8. `contact.html` — Contact Us
+- index.html
+- about.html
+- website-app-development.html
+- ui-ux-design.html
+- blockchain-development.html
+- crypto-listing.html
+- portfolio.html
+- contact.html
 
-## Features
-- Responsive desktop/tablet/mobile layouts; accessible desktop dropdown and mobile menu.
-- CSS-built, original UI illustrations (no stock media required).
-- Original logo reused from the existing ANSUBIX site.
-- SEO descriptions, canonical tags, sitemap, robots.txt, CNAME and `.nojekyll`.
-- Portfolio case visuals are original **concept explorations**, NOT real customer testimonials or delivered client work.
-- Contact form **does not submit enquiries**. It validates and copies details. Connect a verified business email/secure form endpoint before publishing as a lead-receiving form.
-- All 8 pages share a consistent theme from `assets/css/site.css`.
+## Design updates
+- Large editorial website + phone artwork on homepage hero
+- New responsive featured-work section referencing 3 genuine Behance entries
+- Portfolio rebuilt with 6 verified Behance project pages and category filters
+- Six new custom SVG editorial covers, original content, **not screenshots from Behance**
+- New V7 stylesheet applied consistently across all 8 pages
+- Services, inner hero, CTA and contact visuals revised
+- Menu, paths, metadata and mobile behavior retained
 
-## GitHub Pages deployment
-Upload the **contents** of this folder to `uiuxindia/ansubix` root on branch `main`. Retain root `CNAME` with `ansubix.com`; configure GoDaddy DNS separately. Do not delete unrelated DNS/email records. Don't push to production without reviewing.
+## Portfolio provenance
+All portfolio links reference works owned by UI UX Designer Mangat on Behance. Neither the covers nor the projects should be described as ANSUBIX client deliveries without evidence. The covers are original illustrative graphics made for the ANSUBIX site because Behance source images were not directly retrievable here. Replace them with actual, licensed uploaded project images later if preferred.
 
-No build tools required. Fonts request Google Fonts; system fallbacks are available. No external JavaScript dependencies.
+## Deployment
+The ZIP is structured for GitHub Pages. Extract the *contents* into the repository root (where index.html and CNAME must live). Do not change GoDaddy nameservers as part of uploading this package. No live deploy was performed.
+
+## Enquiries
+The contact form presently copies the submitted details to the visitor's clipboard. No form delivery takes place until an approved backend/mailbox integration is configured.
